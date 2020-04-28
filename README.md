@@ -29,6 +29,7 @@ sudo service httpd status
 apacheのアクセスログを出す
 sudo tail -f /var/log/httpd/access_log
 ```
+
 ### Apacheいろいろ
 * [Apacheの設定ファイル httpd.confの場所(ファイルの場所を確かめる)](https://qiita.com/s2maeda/items/21d9458e44f86597d1ae)
 * [Apache:インストール(httpd)、初期設定、その他（Apacheの設定し方、ページの作り方とか）](https://qiita.com/YasuyukiKawai/items/b32bd94cde7f928c0753)
@@ -38,6 +39,46 @@ sudo tail -f /var/log/httpd/access_log
 * []()
 * []()
 
+### AWSで使ったもの一覧
+* EC2インスタンス
+* RDS
+* サブネット
+* ルートテーブル
+* セキュリティグループ
+* S3（バケット）
+* ターゲットグループ
+* ロードバランサー
+* CloudFront
+* AWS WAF
+* 
+* 
+* 
+
+## ssh public key 確認
+
+```
+cd ~/.ssh
+ls
+で鍵があるか確認
+
+pbcopy < ~/.ssh/id_rsa.pub
+でコピー
+```
+
+* [CloudFront 経由で S3 のファイルにアクセスする](https://qiita.com/NaokiIshimura/items/46994e67b712831c3016)
+* [【学習ノート】AWS SAA取得に向けて(CloudFront,Rout53)](https://qiita.com/t_shibuki/items/6f07d121607a7d29fb86)
+* [S3の特定バケットへのアクセスを特定のCloudFrontからのみ許可する。](https://qiita.com/kooohei/items/2779f2755fb75ec3cc93)
+* [S3 CloudFront Route 53 でReactで作ったSPAを配信する](https://qiita.com/keitakn/items/35ae8cc56f5c0a4766b4)
+* [S3にjavaでアップロードとダウンロードメモ](https://qiita.com/hokke/items/e3650decbc57cae8cc42)
+* [AWS SDK for JavaでAmazonS3ClientBuilderを使ってS3にデータをアップロード／ダウンロード／一括削除する](https://qiita.com/hmatsu47/items/496a8a49c4bb089f3749)
+* [AWS SDK for Java がデフォルトで参照する credential](https://qiita.com/kawachi/items/cb59a44b5430988741be)
+* [Java: Spring Boot で Amazon S3 にアクセスする！](http://blog.rakugakibox.net/entry/2015/07/28/spring-boot-with-s3)
+* [シェル変数と環境変数](https://codezine.jp/unixdic/w/%E3%82%B7%E3%82%A7%E3%83%AB%E5%A4%89%E6%95%B0%E3%81%A8%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0)
+* [EC2 のWebサーバーへ CloudFront 経由で AWS WAF を導入](https://hacknote.jp/archives/37728/)
+* []()
+* []()
+* []()
+* []()
 
 * []()
 * []()
