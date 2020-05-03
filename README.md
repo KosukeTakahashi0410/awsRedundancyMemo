@@ -88,6 +88,6 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 * [AWS初心者が押さえておくべき7つのサービス](https://www.cloudsolution.tokai-com.co.jp/white-paper/2019/000208.html)
 * [ALBのヘルスチェックの豆知識（ヘルスチェックで何が通ってるか）](http://blog.serverworks.co.jp/tech/2017/02/08/alb-tagert-health-status/)
-* []()
+* [Spring Bootでリダイレクト先のURLを組み立てる](https://qiita.com/rubytomato@github/items/8d132dec042f695e50f6)
 * []()
 * []()
